@@ -27,7 +27,7 @@ but shoud work well with other serial/i2c/usb/ha7net devices. Please let me know
 ### Installation
 
 1. Access your Home Assistant, go to **Add-ons** -> **Add-on Store** and add this URL as an additional repository: 
-`https://github.com/lrybak/addon-repository`
+`https://github.com/domectrl/addon-repository`
 1. Find the "owserver (1-Wire)" add-on and click the "INSTALL" button.
 1. Configure the add-on and click on "START". With default configuration addon starts with fake (mocked) devices.
 1. Add to Home Assistant through the Integrations. Go to Integrations, Add Integration, Choose 1-Wire
@@ -36,17 +36,17 @@ but shoud work well with other serial/i2c/usb/ha7net devices. Please let me know
 1. That's it. On the integrations page wou will find 1-Wire integration with discovered devices.
 
 ### Configuration
-Please check the **[full documentation page](https://github.com/lrybak/hassio-owserver/blob/master/DOCS.md)**.
+Please check the **[full documentation page](https://github.com/domectrl/hassio-owserver/blob/master/DOCS.md)**.
 
 ## Screenshots
 
-![Integration setup 1](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_setup1.png)
-![Integration setup 2](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_setup2.png)
-![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
-![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
+![Integration setup 1](https://github.com/domectrl/hassio-owserver/raw/master/images/screenshot_setup1.png)
+![Integration setup 2](https://github.com/domectrl/hassio-owserver/raw/master/images/screenshot_setup2.png)
+![Integrations page](https://github.com/domectrl/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
+![owhttpd](https://github.com/domectrl/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[releases-shield]: https://img.shields.io/github/release/lrybak/hassio-owserver.svg
-[releases]: https://github.com/lrybak/hassio-owserver/releases
+[releases-shield]: https://img.shields.io/github/release/domectrl/hassio-owserver.svg
+[releases]: https://github.com/domectrl/hassio-owserver/releases
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
